@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1142dbc3-d83f-4865-b599-d4805f561e6c" name="Changes" comment="CV: updated main section and about section">
-      <change afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
-    </list>
+    <list default="true" id="1142dbc3-d83f-4865-b599-d4805f561e6c" name="Changes" comment="CV: updated main section and about section" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -67,7 +63,7 @@
       <workItem from="1677920403147" duration="22289000" />
       <workItem from="1678090168931" duration="24000" />
       <workItem from="1678101857819" duration="29000" />
-      <workItem from="1678120614849" duration="4980000" />
+      <workItem from="1678120614849" duration="5318000" />
     </task>
     <task id="LOCAL-00001" summary="CV: First commit, created files and directories.">
       <created>1677921189074</created>
@@ -90,7 +86,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678125375070</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="CV: updated main section and about section">
+      <created>1678125641637</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678125641637</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
