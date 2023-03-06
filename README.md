@@ -1,3 +1,1 @@
-CV
-
-[website](src/index.html)
+[index.html](/index.html)
