@@ -1,3 +1,3 @@
-Tito Jose Muñoz Abreu CV
+CV
 
 [website](src/index.html)
