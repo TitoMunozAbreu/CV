@@ -1,4 +1,9 @@
+@charset "utf-8";
 /* body */
+html{
+    scroll-behavior: smooth;
+}
+
 body {
     width: 100%;
     height: 100%;
@@ -82,7 +87,7 @@ nav .logo {
 
 .title h1,
 .about-text h1,
-.news-text h1 {
+.news-title h1 {
     font-size: 40px;
     color:#292929 ;
     margin: 0 0 16px 0;
@@ -95,7 +100,8 @@ nav .logo {
     font-family: 'Libre Baskerville', serif;
 }
 
-.cv-btn {
+.cv-btn,
+#news .btn {
     width: 200px;
     height: 45px;
     display: flex;
@@ -103,11 +109,17 @@ nav .logo {
     align-items: center;
     background-color: #292929;
     color: #FFFFFF;
+    text-decoration: none;
+
 }
 
-.cv-btn:hover {
+.cv-btn:hover,
+#news .btn:hover,
+#contact .btn:hover {
     background-color: #131313;
     transition: all ease 0.5s;
+    text-decoration: none;
+    color:#FFFFFF;
 }
 
 .mePhoto {
@@ -128,7 +140,6 @@ nav .logo {
     background-color: #3AB0FF;
     font-family: 'Open Sans', sans-serif;
     position: relative;
-
 }
 
 .about-text {
@@ -178,16 +189,18 @@ nav .logo {
 
 /* news Section */
 
-#news {
+#news,
+#contact{
     width: 100%;
-    height: 100vh;
+    height: 105vh;
     box-sizing: border-box;
     background-color: #FFFFFF;
     font-family: 'Open Sans', sans-serif;
     position: relative;
+    display: flex;
 }
 
-.news-text{
+.news-title{
     width: 30%;
     position: absolute;
     top: 5%;
@@ -195,64 +208,250 @@ nav .logo {
     transform: translate(-20%, 50%);
 }
 
-.news-text h2 {
-    margin-top: 2%;
+.news-title h2 {
+    margin: 0;
     color: #FFB562;
 }
 
-.card,
-.card2,
-.card3 {
-    top: 32%;
+.card:nth-child(odd),
+.card:nth-child(even) {
+    top: 28%;
     width: 25%;
     position: absolute;
     text-align: left;
 }
 
-.card:hover,
-.card2:hover,
-.card3:hover {
+.card:nth-child(odd):hover,
+.card:nth-child(even):hover {
     box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
 }
 
-.card {
+.card:nth-of-type(2) {
     left: 14%;
 }
 
-.card2 {
+.card:nth-of-type(3) {
     left: 42%;
 }
 
-.card3 {
+.card:nth-of-type(4) {
     left: 70%;
 }
 
-.card .card-header img,
-.card2 .card-header img,
-.card3 .card-header img {
+.card:nth-child(odd) img,
+.card:nth-child(even) img {
     width: 70%;
     position: relative;
     left: 15%;
     margin-top: 5% ;
     padding: 0;
     box-sizing: border-box;
+
 }
 
-.card .card-title,
-.card2 .card-title,
-.card3 .card-title {
+.card:nth-child(odd) .card-title,
+.card:nth-child(even) .card-title {
     text-transform: uppercase;
     font-size: 15px;
+    font-weight: 700;
+    letter-spacing: 2px;
 }
 
-.card .card-text,
-.card2 .card-text,
-.card3 .card-text {
+
+.card:nth-child(odd) .card-text,
+.card:nth-child(even) .card-text {
     font-size: 10px;
+
 }
 
 .card-text {
-    padding-bottom: 2%;
+    line-height: 2;
 }
 
+#news .card-header {
+    background-color: #3AB0FF;
+}
+
+#newsOne,
+#newsTwo,
+#newsThree {
+    width: 100%;
+    height: 310vh;
+    box-sizing: border-box;
+    background-color: #3AB0FF;
+    font-family: 'Open Sans', sans-serif;
+    position: relative;
+}
+
+#newsThree {
+    height: 230vh;
+}
+
+#newsOne .card,
+#newsTwo .card,
+#newsThree .card {
+    top: 5%;
+    left: 15%;
+    width: 70%;
+    position: absolute;
+    text-align: left;
+    line-height: 2;
+}
+
+.newsOne-video,
+.newsTwo-video {
+    padding: 3% 3%;
+    position: relative;
+    left: 22%;
+}
+/* Contact Form*/
+
+#contact {
+    justify-content: center;
+    align-items: center;
+}
+
+#contact form {
+    margin-top: 3%;
+    display: flex;
+    width: 80%;
+    height: 80vh;
+    box-shadow: 2px 2px 12px rgba(0,0,0,0.5);
+    border: 1px solid rgba(255,255,255,0.01);
+}
+
+.contact-lef {
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.contact-right {
+    width: 60%;
+    height: 100%;
+    box-sizing: border-box;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-left: 1px solid rgba(255,255,0.08);
+}
+
+.contact-lef h1 {
+    letter-spacing: 2px;
+    font-weight: 400;
+    font-size: 5rem;
+    color: #FFB562;
+
+}
+
+.contact-lef span {
+    border-bottom: 3px solid #FFB562;
+}
+
+.contact-lef label {
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+.contact-lef input,
+.f-date {
+    height: 30px;
+    width: 250px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    border-bottom:  1px solid #292929;
+    margin: 10px 0;
+}
+
+.contact-lef input::placeholder,
+.f-date::placeholder {
+    opacity: 0.5;
+    letter-spacing: 1px;
+}
+
+.contact-lef input:focus,
+.f-date:focus {
+    border-bottom: 1px solid #3AB0FF;
+    transition: all ease 0.5s;
+}
+
+.contact-right .f-msg {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-right label {
+    font-size: 18px;
+    color: #4e4e4e;
+}
+
+.contact-right textarea {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 40%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.contact-right textarea::placeholder {
+    font-size: 12px;
+    letter-spacing: 2px;
+}
+
+#contact .btn {
+    width: 100%;
+    height: 50px;
+    background-color: #292929;
+    color: #FFFFFF;
+    font-weight: 800;
+    outline: none;
+    border: none;
+    margin-top: 6%;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+/* Footer section*/
+
+#footer {
+    width: 100%;
+    height: 20vh;
+    box-sizing: border-box;
+    background-color: #3AB0FF;
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+#footer div {
+    padding-top: 2%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.social-icon {
+    margin: 20px 10px;
+    color: #292929;
+    font-size: 20px;
+}
+
+.social-icon:hover {
+    transition: all ease 0.5s;
+    text-decoration: none;
+    color: #FFFFFF;
+}
 
