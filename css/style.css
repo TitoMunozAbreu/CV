@@ -74,6 +74,7 @@ nav .logo {
     left: 20%;
     top: 35%;
     transform: translate(-20%, 50%);
+
 }
 
 .title p:nth-child(1),
@@ -462,10 +463,6 @@ nav .logo {
 
         /*nav*/
 
-    .menu .active {
-
-    }
-
     .menu li {
         padding-bottom: 1%;
         padding-top: 1%;
@@ -502,6 +499,8 @@ nav .logo {
         display: flex;
         position: center;
         flex-direction: column;
+        height: 120vh;
+
     }
 
     .about-text,
@@ -521,9 +520,10 @@ nav .logo {
     }
 
     #about-carousel {
-        top: 50%;
-        left: 14%;
+        top: 55%;
+        left: 10%;
         width: 300px;
+        padding-bottom: 20%;
     }
 
 
@@ -544,7 +544,7 @@ nav .logo {
     .news-title h2 {
         font-size: 22px;
         margin-top: 4%;
-        padding-left: 15%;
+        padding-left: 8%;
     }
 
     .container-fluid {
