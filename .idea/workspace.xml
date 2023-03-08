@@ -1,18 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="1142dbc3-d83f-4865-b599-d4805f561e6c" name="Changes" comment="CV: updated news section">
-      <change afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/CV_TITO_MUÑOZ.pdf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsOne.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsThree.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/newsTwo.html" afterDir="false" />
+    <list default="true" id="1142dbc3-d83f-4865-b599-d4805f561e6c" name="Changes" comment="CV: updated web version">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/newsOne.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/newsThree.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/news/newsTwo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsOne.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsOne.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsThree.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsThree.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newsTwo.html" beforeDir="false" afterPath="$PROJECT_DIR$/newsTwo.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +77,8 @@
       <workItem from="1678090168931" duration="24000" />
       <workItem from="1678101857819" duration="29000" />
       <workItem from="1678120614849" duration="14789000" />
-      <workItem from="1678169585822" duration="21589000" />
+      <workItem from="1678169585822" duration="21910000" />
+      <workItem from="1678259193469" duration="18723000" />
     </task>
     <task id="LOCAL-00001" summary="CV: First commit, created files and directories.">
       <created>1677921189074</created>
@@ -146,7 +143,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678134982008</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="CV: updated web version">
+      <created>1678191948233</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1678191948233</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -169,6 +173,7 @@
     <MESSAGE value="CV: updated README.md" />
     <MESSAGE value="CV: updated main section and about section" />
     <MESSAGE value="CV: updated news section" />
-    <option name="LAST_COMMIT_MESSAGE" value="CV: updated news section" />
+    <MESSAGE value="CV: updated web version" />
+    <option name="LAST_COMMIT_MESSAGE" value="CV: updated web version" />
   </component>
 </project>
